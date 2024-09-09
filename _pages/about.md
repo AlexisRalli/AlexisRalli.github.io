@@ -10,9 +10,9 @@ redirect_from:
 
 Hi, I'm Alexis Ralli a postdoctoral fellow at Tufts University in the [Quantum Information Quantum Computing (QIQC) group](https://sites.google.com/view/tuftsqi).
 
-I completed a quantum chemistry PhD student in the [Centre for Computational Science group (CCS)](https://ccs.chem.ucl.ac.uk/) at [University College London (UCL)](https://www.ucl.ac.uk/).
+I completed a quantum chemistry PhD in the [Centre for Computational Science group (CCS)](https://ccs.chem.ucl.ac.uk/) group at [University College London (UCL)](https://www.ucl.ac.uk/).
 
-Currently, my work focuses on applications of quantum computing to chemistry. In particular I study different subspace methods and where quantum mechanics truely occurs in these methods. Specifically, I am interested in quantum contextuality. 
+Currently, my work focuses on applications of quantum computing to chemistry. In particular I study different subspace methods and study where quantum mechanics occurs in these methods. Specifically, I am interested in quantum contextuality. 
  
 I earned an MChem in chemistry from the [University of Manchester](https://www.manchester.ac.uk/), followed by an MRes in quantum technology from [UCL](https://www.ucl.ac.uk/quantum/people).
 

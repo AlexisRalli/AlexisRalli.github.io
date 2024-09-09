@@ -18,4 +18,4 @@ I earned an MChem in chemistry from the [University of Manchester](https://www.m
 
 Projects
 ======
-Along with my colleague [Tim Weaving](https://scholar.google.com/citations?user=sz4S2-gAAAAJ&hl=en&oi=ao), we are building an open-source python package called [Symmer](https://github.com/UCL-CCS/symmer) that allows people to study quantum problems using subspace methods. We welcome users to try it out!  This project has been supported by a grant from the [Unitary Fund](https://unitary.fund/)
+Along with my colleague [Tim Weaving](https://scholar.google.com/citations?user=sz4S2-gAAAAJ&hl=en&oi=ao), we are building an open-source python package called [`Symmer`](https://github.com/UCL-CCS/symmer) that allows people to study quantum problems using subspace methods. We welcome users to try it out!  This project has been supported by a grant from the [Unitary Fund](https://unitary.fund/)

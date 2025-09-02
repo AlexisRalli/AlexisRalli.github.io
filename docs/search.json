@@ -49,6 +49,13 @@
     "text": "Giscus\nGiscus allows for comments on blog post by leveraging GitHub discussions. This allows for vistors who have GitHub to leave comments on blog posts."
   },
   {
+    "objectID": "blog/first-post/first-post_files/first-post.html#scripting",
+    "href": "blog/first-post/first-post_files/first-post.html#scripting",
+    "title": "Quarto Test",
+    "section": "Scripting",
+    "text": "Scripting\nIn the _quarto.yml file in the root of a project the pre-render term can be set such that a python file (or other) is run before building the website. I use this functionality to run prepare.py, which extracts all my publications listed in papers/publications.bib and outputs the corresponding papers/publications.yml and papers/publications.qmd."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Alexis Ralli",
@@ -88,6 +95,6 @@
     "href": "blog/index.html",
     "title": "Blog",
     "section": "",
-    "text": "Quarto Test\n\n\n\nQuarto\n\n\n\nThis post is simply to test quarto and give some useful notes to myself and other wanting to build a similar website!\n\n\n\n\n\n2 Sept 2025\n\n\nAlexis Ralli\n\n\n\n\n\nNo matching items\nCitationBibTeX citation:@misc{ralli,\n  author = {{Alexis Ralli}},\n  title = {Blog},\n  langid = {en-GB}\n}\nFor attribution, please cite this work as:\nAlexis Ralli. n.d. “Blog.”"
+    "text": "Quarto Test\n\n\n\nQuarto\n\n\n\nThis post is has some quarto notes for myself and others wanting to build a similar website!\n\n\n\n\n\n2 Sept 2025\n\n\nAlexis Ralli\n\n\n\n\n\nNo matching items\nCitationBibTeX citation:@misc{ralli,\n  author = {{Alexis Ralli}},\n  title = {Blog},\n  langid = {en-GB}\n}\nFor attribution, please cite this work as:\nAlexis Ralli. n.d. “Blog.”"
   }
 ]

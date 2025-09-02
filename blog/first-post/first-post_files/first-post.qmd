@@ -1,6 +1,6 @@
 ---
 title: "Quarto Test"
-description: "This post is simply to test quarto and give some useful notes to myself and other wanting to build a similar website!"
+description: "This post is has some quarto notes for myself and others wanting to build a similar website!"
 author:
   - id: Alexis Ralli
     number: 1
@@ -94,3 +94,6 @@ Plot HTML of a molecular system with a border:
 ## Giscus
 
 [Giscus](https://giscus.app/) allows for comments on blog post by leveraging GitHub discussions. This allows for vistors who have GitHub to leave comments on blog posts.
+
+## Scripting
+In the `_quarto.yml` file in the root of a project the `pre-render` term can be set such that a python file (or other) is run before building the website. I use this functionality to run `prepare.py`, which extracts all my publications listed in `papers/publications.bib` and outputs the corresponding `papers/publications.yml` and `papers/publications.qmd`.

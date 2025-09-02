@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="dcterms.date" content="2025-09-02">
-<meta name="description" content="This post is simply to test quarto and give some useful notes to myself and other wanting to build a similar website!">
+<meta name="description" content="This post is has some quarto notes for myself and others wanting to build a similar website!">
 
 <title>Quarto Test – Home</title>
 <style>
@@ -679,6 +679,7 @@ globalThis._qpyodideGetInstance = function() {
   <li><a href="#show-a-molecule" id="toc-show-a-molecule" class="nav-link" data-scroll-target="#show-a-molecule">Show a molecule</a></li>
   <li><a href="#shiny" id="toc-shiny" class="nav-link" data-scroll-target="#shiny">Shiny</a></li>
   <li><a href="#giscus" id="toc-giscus" class="nav-link" data-scroll-target="#giscus">Giscus</a></li>
+  <li><a href="#scripting" id="toc-scripting" class="nav-link" data-scroll-target="#scripting">Scripting</a></li>
   </ul>
 </nav>
     </div>
@@ -706,7 +707,7 @@ globalThis._qpyodideGetInstance = function() {
 
 <div>
   <div class="description">
-    This post is simply to test quarto and give some useful notes to myself and other wanting to build a similar website!
+    This post is has some quarto notes for myself and others wanting to build a similar website!
   </div>
 </div>
 
@@ -769,6 +770,10 @@ globalThis._qpyodideGetInstance = function() {
 <section id="giscus" class="level2">
 <h2 class="anchored" data-anchor-id="giscus">Giscus</h2>
 <p><a href="https://giscus.app/">Giscus</a> allows for comments on blog post by leveraging GitHub discussions. This allows for vistors who have GitHub to leave comments on blog posts.</p>
+</section>
+<section id="scripting" class="level2">
+<h2 class="anchored" data-anchor-id="scripting">Scripting</h2>
+<p>In the <code>_quarto.yml</code> file in the root of a project the <code>pre-render</code> term can be set such that a python file (or other) is run before building the website. I use this functionality to run <code>prepare.py</code>, which extracts all my publications listed in <code>papers/publications.bib</code> and outputs the corresponding <code>papers/publications.yml</code> and <code>papers/publications.qmd</code>.</p>
 
 
 </section>

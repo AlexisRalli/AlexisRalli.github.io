@@ -1,0 +1,38 @@
+---
+title: "Alexis Ralli"
+about:
+    template: trestles
+    links:
+        - icon: linkedin
+          text: LinkedIn
+          url: https://www.linkedin.com/in/alexis-ralli-293931b0/
+        - icon: github
+          text: Github
+          url: https://github.com/AlexisRalli/
+        - text: "{{< ai orcid >}} ORCID 0000-0001-8953-1235"
+          url: https://orcid.org/0000-0001-8953-1235
+        - text: "{{< ai google-scholar >}} Google Scholar"
+          url: https://scholar.google.com/citations?hl=en&user=fe6ZetoAAAAJ
+        - text: "✉  Email"
+          url: mailto:alexis.ralli@tufts.edu
+image: img/alexis.jpg
+comments: false
+---
+
+## Bio
+Hi, I'm Alexis — cofounder of an early-stage quantum chemistry startup. I'm passionate about using both conventional and quantum computers to simulate molecular systems, with the goal of unlocking new drugs and materials.
+
+Outside of work, I enjoy cycling, watching films, and contributing to open-source projects.
+
+Currently my blog focuses on chemistry and quantum science — from educational content to industry insights — though you'll also find the occasional off-topic post sprinkled in.
+
+
+## Projects
+Along with my friend [Tim Weaving](https://scholar.google.com/citations?user=sz4S2-gAAAAJ&hl=en&oi=ao), we have developed an open-source python package called [`Symmer`](https://github.com/UCL-CCS/symmer) that allows people to study quantum problems using subspace methods. We welcome users to try it out!  This project has been supported by a grant from the [Unitary Fund](https://unitary.fund/)
+
+## Background
+I completed a quantum chemistry PhD in the [Centre for Computational Science group (CCS)](https://ccs.chem.ucl.ac.uk/) group at [University College London (UCL)](https://www.ucl.ac.uk/).
+
+I was then a postdoctoral fellow at Tufts University in the [Quantum Information Quantum Computing (QIQC) group](https://sites.google.com/view/tuftsqi).
+
+

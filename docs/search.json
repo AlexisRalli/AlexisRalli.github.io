@@ -77,11 +77,11 @@
     "text": "Background\nI completed a quantum chemistry PhD in the Centre for Computational Science group (CCS) group at University College London (UCL).\nI was then a postdoctoral fellow at Tufts University in the Quantum Information Quantum Computing (QIQC) group."
   },
   {
-    "objectID": "papers/index.html",
-    "href": "papers/index.html",
-    "title": "Papers",
+    "objectID": "papers/publications.html",
+    "href": "papers/publications.html",
+    "title": "Publications",
     "section": "",
-    "text": "TITLE1\n\nCITATION\n\nprint(\"Hello, World!\")\nTITLE2\n\nCITATION\n\nprint(\"Hello, World!\")"
+    "text": "Order By\n      Default\n      \n        Issued - Oldest\n      \n      \n        Issued - Newest\n      \n      \n        Title\n      \n      \n        Journal\n      \n      \n        AuthorPos\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nIssued\n\n\n\nTitle\n\n\n\nJournal\n\n\n\nAuthorPos\n\n\n\n\n\n\n\n\nAugust,2025\n\n\nNoncontextual Pauli Hamiltonians\n\n\nJournal of Physics A: Mathematical and Theoretical\n\n\n1/3\n\n\n\n\n\n\nJune,2025\n\n\nBridging Quantum Chemistry and MaxCut: Classical Performance Guarantees and Quantum Algorithms for the Hartree-Fock Method\n\n\narXiv\n\n\n1/4\n\n\n\n\n\n\nMay,2025\n\n\nAccurately Simulating the Time Evolution of an Ising Model with Echo Verified Clifford Data Regression on a Superconducting Quantum Computer\n\n\nQuantum\n\n\n2/5\n\n\n\n\n\n\nMay,2025\n\n\nExtending Quantum Computing through Subspace, Embedding and Classical Molecular Dynamics Techniques\n\n\narXiv\n\n\n8/11\n\n\n\n\n\n\nMarch,2025\n\n\nCarleman-lattice-Boltzmann quantum circuit with matrix access oracles\n\n\nPhysics of Fluids\n\n\n3/5\n\n\n\n\n\n\nMarch,2025\n\n\nLadder Operator Block-Encoding\n\n\narXiv\n\n\n4/6\n\n\n\n\n\n\nFebruary,2025\n\n\nContextual subspace variational quantum eigensolver calculation of the dissociation curve of molecular nitrogen on a superconducting quantum computer\n\n\nnpj Quantum Information\n\n\n2/5\n\n\n\n\n\n\nFebruary,2024\n\n\nScalable approach to quantum simulation via projection-based embedding\n\n\nPhysical Review A\n\n\n1/3\n\n\n\n\n\n\nOctober,2023\n\n\nBenchmarking noisy intermediate scale quantum error mitigation strategies for ground state preparation of the HCl molecule\n\n\nPhysical Review Research\n\n\n2/6\n\n\n\n\n\n\nJuly,2023\n\n\nCalculating the Single-Particle Many-body Green’s Functions via the Quantum Singular Value Transform Algorithm\n\n\narXiv\n\n\n1/4\n\n\n\n\n\n\nFebruary,2023\n\n\nUnitary partitioning and the contextual subspace variational quantum eigensolver\n\n\nPhysical Review Research\n\n\n1/6\n\n\n\n\n\n\nJanuary,2023\n\n\nA Stabilizer Framework for the Contextual Subspace Variational Quantum Eigensolver and the Noncontextual Projection Ansatz\n\n\nJournal of Chemical Theory and Computation\n\n\n2/6\n\n\n\n\n\n\nAugust,2021\n\n\nImplementation of measurement reduction for the variational quantum eigensolver\n\n\nPhysical Review Research\n\n\n1/4\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/index.html",
@@ -89,19 +89,5 @@
     "title": "Blog",
     "section": "",
     "text": "Quarto Test\n\n\n\nQuarto\n\n\n\nThis post is simply to test quarto and give some useful notes to myself and other wanting to build a similar website!\n\n\n\n\n\n2 Sept 2025\n\n\nAlexis Ralli\n\n\n\n\n\nNo matching items\nCitationBibTeX citation:@misc{ralli,\n  author = {{Alexis Ralli}},\n  title = {Blog},\n  langid = {en-GB}\n}\nFor attribution, please cite this work as:\nAlexis Ralli. n.d. “Blog.”"
-  },
-  {
-    "objectID": "papers/refs.html",
-    "href": "papers/refs.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Issued - Oldest\n      \n      \n        Issued - Newest\n      \n      \n        Title\n      \n      \n        Journal\n      \n      \n        Author-Position\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\nIssued\nTitle\nJournal\nAuthor-Position\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "papers/publications.html",
-    "href": "papers/publications.html",
-    "title": "Publications",
-    "section": "",
-    "text": "Order By\n      Default\n      \n        Issued - Oldest\n      \n      \n        Issued - Newest\n      \n      \n        Title\n      \n      \n        Journal\n      \n      \n        AuthorPos\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nIssued\n\n\n\nTitle\n\n\n\nJournal\n\n\n\nAuthorPos\n\n\n\n\n\n\n\n\nAugust,2025\n\n\nNoncontextual Pauli Hamiltonians\n\n\nJournal of Physics A: Mathematical and Theoretical\n\n\n1/3\n\n\n\n\n\n\nJune,2025\n\n\nBridging Quantum Chemistry and MaxCut: Classical Performance Guarantees and Quantum Algorithms for the Hartree-Fock Method\n\n\narXiv\n\n\n1/4\n\n\n\n\n\n\nMay,2025\n\n\nAccurately Simulating the Time Evolution of an Ising Model with Echo Verified Clifford Data Regression on a Superconducting Quantum Computer\n\n\n{Quantum}\n\n\n2/5\n\n\n\n\n\n\nMay,2025\n\n\nExtending Quantum Computing through Subspace, Embedding and Classical Molecular Dynamics Techniques\n\n\narXiv\n\n\n8/11\n\n\n\n\n\n\nMarch,2025\n\n\nCarleman-lattice-Boltzmann quantum circuit with matrix access oracles\n\n\nPhysics of Fluids\n\n\n3/5\n\n\n\n\n\n\nMarch,2025\n\n\nLadder Operator Block-Encoding\n\n\narXiv\n\n\n4/6\n\n\n\n\n\n\nFebruary,2025\n\n\nContextual subspace variational quantum eigensolver calculation of the dissociation curve of molecular nitrogen on a superconducting quantum computer\n\n\nnpj Quantum Information\n\n\n2/5\n\n\n\n\n\n\nFebruary,2024\n\n\nScalable approach to quantum simulation via projection-based embedding\n\n\nPhysical Review A\n\n\n1/3\n\n\n\n\n\n\nOctober,2023\n\n\nBenchmarking noisy intermediate scale quantum error mitigation strategies for ground state preparation of the HCl molecule\n\n\nPhysical Review Research\n\n\n2/6\n\n\n\n\n\n\nJuly,2023\n\n\nCalculating the Single-Particle Many-body Green’s Functions via the Quantum Singular Value Transform Algorithm\n\n\narXiv\n\n\n1/4\n\n\n\n\n\n\nFebruary,2023\n\n\nUnitary partitioning and the contextual subspace variational quantum eigensolver\n\n\nPhysical Review Research\n\n\n1/6\n\n\n\n\n\n\nJanuary,2023\n\n\nA Stabilizer Framework for the Contextual Subspace Variational Quantum Eigensolver and the Noncontextual Projection Ansatz\n\n\nJournal of Chemical Theory and Computation\n\n\n2/6\n\n\n\n\n\n\nAugust,2021\n\n\nImplementation of measurement reduction for the variational quantum eigensolver\n\n\nPhysical Review Research\n\n\n1/4\n\n\n\n\n\n\nNo matching items"
   }
 ]

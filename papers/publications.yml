@@ -49,7 +49,7 @@
   path: https://arxiv.org/abs/2503.11641
 - title: Accurately Simulating the Time Evolution of an Ising Model with Echo Verified
     Clifford Data Regression on a Superconducting Quantum Computer
-  journal-title: '*{Quantum}*'
+  journal-title: '*Quantum*'
   date: 2025-05
   author-position: 2/5
   path: https://doi.org/10.22331/q-2025-05-05-1732

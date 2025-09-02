@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  pre-render: prepare.py
 
 website:
   title: "Home"
@@ -8,7 +9,7 @@ website:
     left:
       - href: index.qmd
         text: Alexis Ralli
-      - href: papers
+      - href: papers/publications.qmd
         text: papers
       - href: blog
         text: blog

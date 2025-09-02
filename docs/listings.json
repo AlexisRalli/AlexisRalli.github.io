@@ -4,5 +4,13 @@
     "items": [
       "/blog/first-post/first-post_files/first-post.html"
     ]
+  },
+  {
+    "listing": "/papers/refs.html",
+    "items": []
+  },
+  {
+    "listing": "/papers/publications.html",
+    "items": []
   }
 ]

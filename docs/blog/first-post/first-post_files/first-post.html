@@ -60,7 +60,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script><script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -108,9 +108,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js" integrity="sha512-c3Nl8+7g4LMSTdrm621y7kf9v3SDPnhxLNhcjFJbKECVnmZHTdo+IRO05sNLTH/D3vA6u1X32ehoLC7WFVdheg==" crossorigin="anonymous"></script>
-
-<script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/monaco-editor@0.46.0/min/vs/editor/editor.main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer">
   
@@ -652,7 +649,7 @@ globalThis._qpyodideGetInstance = function() {
 <span class="menu-text">Alexis Ralli</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../papers"> 
+    <a class="nav-link" href="../../../papers/publications.html"> 
 <span class="menu-text">papers</span></a>
   </li>  
   <li class="nav-item">
@@ -759,59 +756,11 @@ globalThis._qpyodideGetInstance = function() {
 <section id="show-a-molecule" class="level2">
 <h2 class="anchored" data-anchor-id="show-a-molecule">Show a molecule</h2>
 <p>Plot HTML of a molecular system:</p>
-<div id="94a63b04" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> IPython.display <span class="im">import</span> display, HTML</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>display(HTML(<span class="st">'3Dmol_visualization.html'</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display">
-<div id="3dmolviewer_17564003954730759" style="position: relative; width: 800px; height: 400px;">
-        <p id="3dmolwarning_17564003954730759" style="background-color:#ffcccc;color:black">3Dmol.js failed to load for some reason.  Please check your browser console for error messages.<br></p>
-        </div>
-<script>
-
-var loadScriptAsync = function(uri){
-  return new Promise((resolve, reject) => {
-    //this is to ignore the existence of requirejs amd
-    var savedexports, savedmodule;
-    if (typeof exports !== 'undefined') savedexports = exports;
-    else exports = {}
-    if (typeof module !== 'undefined') savedmodule = module;
-    else module = {}
-
-    var tag = document.createElement('script');
-    tag.src = uri;
-    tag.async = true;
-    tag.onload = () => {
-        exports = savedexports;
-        module = savedmodule;
-        resolve();
-    };
-  var firstScriptTag = document.getElementsByTagName('script')[0];
-  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-});
-};
-
-if(typeof $3Dmolpromise === 'undefined') {
-$3Dmolpromise = null;
-  $3Dmolpromise = loadScriptAsync('https://cdn.jsdelivr.net/npm/3dmol@2.5.2/build/3Dmol-min.js');
-}
-
-var viewer_17564003954730759 = null;
-var warn = document.getElementById("3dmolwarning_17564003954730759");
-if(warn) {
-    warn.parentNode.removeChild(warn);
-}
-$3Dmolpromise.then(function() {
-viewer_17564003954730759 = $3Dmol.createViewer(document.getElementById("3dmolviewer_17564003954730759"),{backgroundColor:"white"});
-viewer_17564003954730759.zoomTo();
-    viewer_17564003954730759.addModel("\n3\nWater molecule\nO    0.000000   0.000000   0.000000\nH    0.757160   0.586260   0.000000\nH   -0.757160   0.586260   0.000000\n","xyz");
-    viewer_17564003954730759.setStyle({"stick": {}});
-    viewer_17564003954730759.setBackgroundColor("white");
-    viewer_17564003954730759.zoomTo();
-viewer_17564003954730759.render();
-});
-</script>
-</div>
-</div>
+<iframe src="3Dmol_visualization.html" width="100%" height="500">
+</iframe>
+<p>Plot HTML of a molecular system with a border:</p>
+<iframe src="3Dmol_visualization.html" width="100%" height="500" style="border: 2px solid #444; border-radius: 8px;">
+</iframe>
 </section>
 <section id="shiny" class="level2">
 <h2 class="anchored" data-anchor-id="shiny">Shiny</h2>

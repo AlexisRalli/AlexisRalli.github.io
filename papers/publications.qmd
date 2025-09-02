@@ -1,0 +1,32 @@
+---
+title: 'Publications'
+author:
+  - name: Alexis Ralli
+    orcid: 0000-0001-8953-1235
+    email: alexis.ralli@tufts.edu
+    affiliation:  
+      - name: Tufts University
+        city: Medford
+        state: MA
+        url: "https://www.tufts.edu"
+      - name: University College London
+        city: London
+        country: United Kingdom
+        url: "https://www.ucl.ac.uk"
+title-block-banner: true
+date-format: 'MMMM,<br>YYYY'
+listing:
+  contents:
+    - publications.yml
+  page-size: 10
+  sort: 'date desc'
+  type: table
+  categories: false
+  sort-ui: [date, title, journal-title, author-position]
+  filter-ui: [date, title, journal-title]
+  fields: [date, title, journal-title, author-position]
+  field-display-names:
+    date: Issued
+    journal-title: Journal
+    author-position: AuthorPos
+---

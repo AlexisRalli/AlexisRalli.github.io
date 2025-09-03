@@ -32,7 +32,7 @@
     "href": "blog/first-post/first-post_files/first-post.html#show-a-molecule",
     "title": "Quarto Test",
     "section": "Show a molecule",
-    "text": "Show a molecule\nPlot HTML of a molecular system:\n\n\nPlot HTML of a molecular system with a border:"
+    "text": "Show a molecule\nPlot HTML of a molecular system:\n\n\nPlot HTML of a molecular system with a border and different width & height:"
   },
   {
     "objectID": "blog/first-post/first-post_files/first-post.html#shiny",
